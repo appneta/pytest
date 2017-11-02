@@ -761,6 +761,8 @@ class ReprTraceback(TerminalRepr):
     def toterminal(self, tw):
         # the entries might have different styles
         for i, entry in enumerate(self.reprentries):
+            if isinstance(entry, dict):
+                continue
             if entry.style == "long":
                 tw.line("")
             entry.toterminal(tw)
