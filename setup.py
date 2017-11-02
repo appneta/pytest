@@ -60,9 +60,9 @@ def main():
         version='3.2.1',
         description='pytest: simple powerful testing with Python',
         long_description=long_description,
-        use_scm_version={
-            'write_to': '_pytest/_version.py',
-        },
+        # use_scm_version={
+        #     'write_to': '_pytest/_version.py',
+        # },
         url='http://pytest.org',
         license='MIT license',
         platforms=['unix', 'linux', 'osx', 'cygwin', 'win32'],
