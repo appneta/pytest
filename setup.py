@@ -57,6 +57,7 @@ def main():
 
     setup(
         name='pytest',
+        version='3.2.1'
         description='pytest: simple powerful testing with Python',
         long_description=long_description,
         use_scm_version={
